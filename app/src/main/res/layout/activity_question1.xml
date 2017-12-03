@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hadiyanfathurrahman.edugamequizz.Soal1"
+    android:background="@drawable/qmark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="7dp"
+        android:layout_height="220dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/transwhite"
+        >
+
+        <TextView
+            android:text="@string/quiz1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            />
+
+        <RadioGroup
+            android:id="@+id/soal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amerika Serikat" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesia" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rusia" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="China" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inggris" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_next1"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Next"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button_next1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/button_next1"
+            android:layout_marginBottom="158dp"
+            android:fontFamily="serif"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

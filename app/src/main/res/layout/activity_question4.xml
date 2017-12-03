@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hadiyanfathurrahman.edugamequizz.Soal4"
+    android:orientation="vertical"
+    android:background="@drawable/qmark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:padding="7dp"
+        android:background="@drawable/transwhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz4"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"/>
+
+        <EditText
+            android:id="@+id/soal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Answer"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_next4"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Next"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Education Quiz</string>
+    <string name="quiz1">Negara terluas di dunia adalah...</string>
+    <string name="quiz2">Dari judul komik berikut, manakah komik yang berasal dari china? (Pilih 2)</string>
+    <string name="quiz3">Berikut ini yang termasuk hardware komputer adalah... (Pilih 3)</string>
+    <string name="quiz4">Ibukota negara Jepang adalah...</string>
+    <string name="quiz5">Siapakah pendiri sosial media facebook?</string>
+
+
+
+</resources>
