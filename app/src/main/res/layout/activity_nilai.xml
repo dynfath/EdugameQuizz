@@ -78,6 +78,7 @@
             android:layout_height="165dp"
             android:layout_below="@id/layout_button"
             android:layout_margin="20dp"
+            android:padding="7dp"
             android:orientation="vertical"
             android:background="@drawable/transyellow"
             android:visibility="invisible">
@@ -88,40 +89,47 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Jawaban Soal"
                 android:textColor="@color/colorAccent"
-                android:textSize="15sp"/>
+                android:textSize="20sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1. Rusia"
-
-                android:fontFamily="casual"/>
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2. Tales of Demon and God, The Geat Ruler"
-                android:textAllCaps="true"
-
-                android:fontFamily="casual"/>
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3. Monitor, Keyboard, VGA"
-                android:fontFamily="casual"/>
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4. Tokyo"
-                android:fontFamily="casual"/>
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5. Mark Zuckerberg"
-                android:fontFamily="casual"/>
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                />
         </LinearLayout>
 
     </RelativeLayout>
